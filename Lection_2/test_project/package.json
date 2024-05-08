@@ -1,0 +1,11 @@
+{
+  "name": "kate_math_package",
+  "version": "1.0.0",
+  "description": "Math functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kate Scherbakova",
+  "license": "ISC"
+}
