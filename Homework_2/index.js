@@ -22,30 +22,29 @@
 
 // Расчет коэф-та текущей ликвидности = оборотные активы / краткосрочные обязательства:
 
-function calcLiquidity() {
-  const currentAssets = +prompt(
-    "Введите количество оборотных активов из баланса: "
-  );
-  const shortTermLiabilities = +prompt(
-    "Введите количество краткосрочных обязательств из баланса: "
-  );
+function calcLiquidity(currentAssets, shortTermLiabilities) {
+  // const currentAssets = +prompt(
+  //   "Введите количество оборотных активов из баланса: "
+  // );
+  // const shortTermLiabilities = +prompt(
+  //   "Введите количество краткосрочных обязательств из баланса: "
+  // );
   const currentLiquidityRatio = currentAssets / shortTermLiabilities;
   if (currentLiquidityRatio < 1.5) {
-    alert(
+    console.log(
       "Показатель текущей ликвидности составляет " +
         `${+currentLiquidityRatio.toFixed(2)} ` +
         "Компания не может вовремя оплачивать текущие долги. Предприятие финансово неустойчиво и не является привлекательным для инвесторов как объект инвестиций."
     );
   } else if (currentLiquidityRatio > 2.5) {
-    alert(
+    console.log(
       "Коэффициент ликвидности выше нормы, оборотные активы компании не используются с полной отдачей."
     );
   } else {
-    alert(
+    console.log(
       `${+currentLiquidityRatio.toFixed(2)}` +
         " рублей оборотных активов приходится на каждый рубль краткосрочных обязательств. Компания способна быстро погасить все текущие долги по требованию кредиторов, является привлекательным объектом для инвесторов."
     );
   }
 }
-
-module.exports = { calcLiquidity };
+calcLiquidity(50, 20);
