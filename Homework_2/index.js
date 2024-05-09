@@ -47,4 +47,5 @@ function calcLiquidity(currentAssets, shortTermLiabilities) {
     );
   }
 }
-calcLiquidity(50, 20);
+
+module.exports = { calcLiquidity };
