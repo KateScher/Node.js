@@ -1,17 +1,16 @@
 {
-  "name": "Lection_2",
+  "name": "Seminar_2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "uuid": "^9.0.1"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0"
+    "colors": "^1.4.0",
+    "number-precision": "^1.6.0"
   }
 }

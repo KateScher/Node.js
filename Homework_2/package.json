@@ -1,0 +1,13 @@
+{
+  "name": "liquidity_calculation",
+  "version": "1.0.0",
+  "description": "attractiveness of the enterprise for investment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kate Scherbakova",
+  "repository": "",
+  "license": "ISC"
+}
