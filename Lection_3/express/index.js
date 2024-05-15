@@ -4,7 +4,7 @@ const express = require("express");
 const path = require("path");
 
 const app = express();
-// Для чтени статичных файлов (на сервере) => в браузере localhost:3400/about.html
+// Для чтения статичных файлов (на сервере) => в браузере localhost:3400/about.html
 app.use(express.static("static"));
 
 // Корневая страница
