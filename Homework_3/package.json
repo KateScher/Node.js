@@ -1,0 +1,15 @@
+{
+  "name": "homework_3",
+  "version": "1.0.0",
+  "description": "Напишите HTTP сервер на express и реализуйте два обработчика “/” и “/about”, где:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
